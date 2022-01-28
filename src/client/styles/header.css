@@ -1,0 +1,10 @@
+img {
+    height: 100vw;
+    max-height: 300px;
+}
+
+header h1{
+    margin: 10px 0px 8px 0px;
+    color: cornsilk;
+    font-size: 2rem;
+}

@@ -1,0 +1,13 @@
+footer {
+    display: flex;
+    min-width: 100%;
+    background-color: rgb(119, 21, 128);
+    height: 10vh;
+    max-height: 35px;
+}
+
+footer p{
+    padding: 7px;
+    text-align: center;
+    color: cornsilk;
+}

@@ -1,0 +1,13 @@
+form{
+    border: 1px solid #545454;
+    border-radius: 3px;
+}
+
+input{
+    padding: 5px 20px;
+    line-height: 16px;
+    margin: 10px 0;
+    max-width: 400px;
+    width: 100vw;
+    display: block;
+}

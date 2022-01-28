@@ -1,14 +1,14 @@
 # evaluate-news-article-with-npl
 Evaluate a news article with Natural Language Processing
 
-##Versions:
+## Versions:
 - node: v16.13.1
 - npm: 8.1.2
 
-##API in use:
+## API in use:
 MeaningCloud, Language Identification API v4.0
 
-##Instructions:
+## Instructions:
 1. Check if node and npm are installed:
    - npm version
    - node version
@@ -23,7 +23,7 @@ MeaningCloud, Language Identification API v4.0
 5. Start the application:
    - npm run start-prod
 
-##Functionality:
+## Functionality:
 After starting the application the main page index.html appears. 
 In the input field, the user can enter a word in any language they want, 
 and as a result of clicking on the 'Check' button, a result appears bellow.

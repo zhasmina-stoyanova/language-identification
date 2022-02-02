@@ -16,7 +16,6 @@ main{
 }
 
 section{
-    border: 1px solid red;
     max-width: 400px;
     width: 100vw;
     text-align: center;
@@ -28,10 +27,4 @@ section{
     font-size: 2rem;
     z-index: 2;
     
-}
-
-#fireworks{
-    margin-top: -50px;
-    max-width: 400px;
-    width: 100vw;
 }

@@ -16,16 +16,18 @@ MeaningCloud, Language Identification API v4.0
    - install node
 2. Install required modules specified in package.json file
    - npm install
-3. Test
+3. Ceate a .env file in the main directory with API_KEY='your_key' inside
+4. Test
    - npm run test
-4. Build
-   - npm run build-prod
-5. Start the application:
-   - npm run start-prod
+5. Build and start the app in dev mode
+   - npm run build-dev
+6. Start the application:
+   - npm run start
 
 ##Functionality:
 After starting the application the main page index.html appears. 
 In the input field, the user can enter a word in any language they want, 
 and as a result of clicking on the 'Check' button, a result appears bellow.
 If the word is recognised, its language will be shown, otherwise the message 
-'Language not recognised' will appear.
+'Undetermined' will appear. The word cannot contain numbers, otherwise the field is
+displayed with red border.

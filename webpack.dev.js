@@ -10,7 +10,7 @@ module.exports = {
         clean: true,
         //javascript is going to be accessed through this code in the html
         libraryTarget: 'var',
-        library: 'Client',
+        library: 'Client'
     },
     module: {
         rules: [
@@ -37,6 +37,6 @@ module.exports = {
         new HtmlWebpackPlugin({
             template: './src/client/views/index.html',
             filename: './index.html'
-        })
+        }),
     ]
 }

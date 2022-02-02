@@ -17,14 +17,12 @@
         <section>
             <form onsubmit="return Client.handleSubmit(event)">
                 <input id="name" type="text" name="input" value="" placeholder="Enter a word ex. Willkommen">
-                <input type="submit" name="" value="Check" onclick="return Client.handleSubmit(event)"
+                <input id="button" type="submit" name="" value="Check" onclick="return Client.handleSubmit(event)"
                     onsubmit="return Client.handleSubmit(event)">
             </form>
         </section>
         <section>
-            <div id="results">German</div>
-            <iframe src="https://giphy.com/embed/3houbrnA0MXAs" width="480" height="480" frameBorder="0"
-                id="fireworks"></iframe>
+            <div id="results"></div>
         </section>
     </main>
     <footer>
